@@ -1,0 +1,84 @@
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
+}
+
+html,
+body {
+    width: 100%;
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #2e2e2e;
+    text-rendering: optimizeLegibility;
+    font-family: sans-serif;
+    color: ghostwhite;
+    text-align: center;
+}
+
+div.mainContainer {
+    min-height: 100vh;
+    min-width: 320px;
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+    place-items: center center;
+}
+
+header {
+    padding: 1em;
+    grid-row: 1 / 2;
+}
+
+header h1 {
+    text-decoration: underline cornflowerblue solid .12em;
+    text-underline-offset: .3em;
+}
+
+div.main {
+    padding: 1em;
+    grid-row: 2 / 3;
+}
+
+div.main > div {
+    height: 70vh;
+    min-height: 320px;
+    padding: 0 .5em 1em .5em;
+}
+
+:not(footer) > p {
+    margin-top: 2em;
+}
+
+a {
+    text-decoration: none;
+    font-size: 1.2rem;
+    color: inherit;
+    transition: color .8s ease .1s;
+}
+
+a:hover {
+    color: cornflowerblue;
+    cursor: pointer;
+}
+
+div.triple {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 10px;
+}
+
+img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    object-position: center;
+}
+
+footer {
+    padding: .5em;
+    grid-row: 3 / 4;
+}
