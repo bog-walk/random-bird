@@ -1,8 +1,10 @@
 # :bird: Random Bird :parrot::flamingo::owl:
 
-![](screenshots/random_bird_web.gif)
+<div align="center">
+  <img src="screenshots/random_bird_web.gif" alt="Random bird app gif"/>
+</div>
 
-Enjoy the beauty of birds without the need to travel thanks to the combined power of [**Ktor**](https://ktor.io/) and the 
+Enjoy the beauty of birds without the need to travel using the combined power of [**Ktor**](https://ktor.io/) and the 
 [**Unsplash Image API**](https://unsplash.com/developers).
 
 ## :memo: Web App details
