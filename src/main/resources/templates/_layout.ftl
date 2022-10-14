@@ -4,7 +4,7 @@
         <head>
             <meta charset="UTF-8">
             <title>Random &#128038;</title>
-            <link rel="stylesheet" href="/static/css/styles.css">
+            <link rel="stylesheet" href="/styles.css">
         </head>
         <body>
         <div class="mainContainer">

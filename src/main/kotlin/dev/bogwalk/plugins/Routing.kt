@@ -2,15 +2,15 @@ package dev.bogwalk.plugins
 
 import dev.bogwalk.models.UnsplashClient
 import io.ktor.server.routing.*
-import io.ktor.server.http.content.*
 import io.ktor.server.application.*
 import io.ktor.server.freemarker.*
+import io.ktor.server.http.content.*
 import io.ktor.server.response.*
 
 fun Application.configureRouting(client: UnsplashClient) {
     routing {
-        static("/static") {
-            resources("files")
+        static("/") {
+            resources("css")
         }
         get("/") {
             call.respond(FreeMarkerContent("index.ftl", null))

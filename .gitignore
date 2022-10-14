@@ -25,4 +25,4 @@ out/
 !**/src/main/**/out/
 !**/src/test/**/out/
 
-src/main/resources/files/testers
+src/main/resources/testers
