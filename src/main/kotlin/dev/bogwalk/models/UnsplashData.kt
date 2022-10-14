@@ -13,7 +13,7 @@ data class UnsplashPhoto(
     val user: UnsplashUser,
     val urls: UnsplashUrl
 ) {
-    val alt = description?.take(20) ?: "Unsplash image of a bird taken by ${user.name}"
+    val alt = description?.take(30) ?: "Unsplash image of a bird by ${user.name}"
 }
 
 @Serializable
