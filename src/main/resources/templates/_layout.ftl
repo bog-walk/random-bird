@@ -3,19 +3,19 @@
     <html lang="en">
         <head>
             <meta charset="UTF-8">
-            <title>The Daily Bird</title>
+            <title>Random &#128038;</title>
             <link rel="stylesheet" href="/static/css/styles.css">
         </head>
         <body>
         <div class="mainContainer">
             <header>
-                <h1>The Daily Bird</h1>
+                <h1>Birdwatching Made Easy</h1>
             </header>
             <div class="main">
                 <#nested>
             </div>
             <footer>
-                <p>All photos sourced through Upsplash API</p>
+                <p>All photos hosted by <a href="https://unsplash.com/" target="_blank">Unsplash</a></p>
             </footer>
         </div>
         </body>
