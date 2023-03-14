@@ -4,9 +4,9 @@ val logbackVersion: String by project
 
 plugins {
     application
-    kotlin("jvm") version "1.7.20"
-    id("io.ktor.plugin") version "2.1.2"
-    id("org.jetbrains.kotlin.plugin.serialization") version "1.7.20"
+    kotlin("jvm") version "1.8.10"
+    id("io.ktor.plugin") version "2.2.4"
+    kotlin("plugin.serialization") version "1.8.10"
 }
 
 group = "dev.bogwalk"
